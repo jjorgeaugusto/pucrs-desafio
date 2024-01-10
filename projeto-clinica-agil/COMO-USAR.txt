@@ -1,0 +1,25 @@
+Instruções Básicas para Executar clinica.cjs:
+
+Pré-requisitos:
+Node.js: Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em nodejs.org.
+
+Passos:
+Baixe o Arquivo clinica.cjs:
+
+Certifique-se de ter o arquivo clinica.cjs disponível em seu sistema.
+ Você pode baixá-lo de uma fonte confiável ou criá-lo usando um editor de texto.
+Abra o Terminal ou Prompt de Comando:
+
+No Windows, você pode usar o PowerShell ou o Prompt de Comando.
+No MacOS ou Linux, você pode usar o Terminal.
+Navegue até o Diretório do Arquivo:
+
+Use o comando cd para navegar até o diretório onde o arquivo clinica.cjs está localizado.
+
+Por exemplo:
+cd caminho/para/o/diretorio/do/arquivo
+Execute o Arquivo clinica.cjs usando o Node.js:
+
+Utilize o comando node seguido do nome do arquivo clinica.cjs:
+node clinica.cjs
+Pressione "Enter" para executar o comando.

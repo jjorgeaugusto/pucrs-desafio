@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titulo</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #8f8f8f;
+}
+
+#profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#content {
+  text-align: center;
+  background-color: #00025c;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#menu {
+  text-align: center;
+}   
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #17006b;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff9f00;
+}
+
+h1 {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tarefasDia,
+#tarefasNoite {
+  flex: 1;
+}
+
+h2 {
+  color: #e2e2e2;
+}
+
+input,
+button {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2338b1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #000a38;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+#profile p {
+  color: #ffffff; 
+}
+
+ul.task-list li {
+  max-width: 300px; 
+  word-wrap: break-word; 
+  margin-bottom: 10px;
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 5px; 
+}
+
+ul.task-list button {
+  margin-left: 10px; 
+}
+
+  </style>
+</head>
+<body>
+
+  <div id="profile">
+    <img src="usuario.png" alt="Foto do Usuário">
+    <h2>Nome Genérico</h2>
+    <p>Descrição do usuário e links abaixo:</p>
+    <div id="menu">
+      <ul>
+        <li><a href="#">Link1</a></li>
+        <li><a href="#">Link2</a></li>
+        <li><a href="#">Link3</a></li>
+        <li><a href="#">Link4</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="content">
+    <h1>Lista de Tarefas</h1>
+
+    <div class="task-list">
+      <div id="tarefasDia">
+        <h2>Dia</h2>
+        <ul id="listaDia" class="task-list">
+        </ul>
+      </div>
+
+      <div id="tarefasNoite">
+        <h2>Noite</h2>
+        <ul id="listaNoite" class="task-list">
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+
+</body>
+</html>
